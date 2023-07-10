@@ -31,7 +31,7 @@ After conducting my own research, I created a portfolio of 29 pairs of stocks (c
 The results can be seen below: 
 
 ## Portfolio returns against SPY
-![Local Image](./PortfolioReturns.png)
+![Portolio Returns](./PortfolioReturns.png)
 
 ## Portfolio of pairs
 ```python(GOOG, AAPL)
