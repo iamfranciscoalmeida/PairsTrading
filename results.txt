@@ -1,0 +1,2235 @@
+Pair: GOOG-AAPL 
+
+GOOG:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   39.222413
+Equity Final [$]                 97534.712704
+Equity Peak [$]                 111244.927197
+Return [%]                          -2.465287
+Buy & Hold Return [%]               -0.608912
+Return (Ann.) [%]                   -3.055875
+Volatility (Ann.) [%]               19.590416
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                   -22.43275
+Avg. Drawdown [%]                   -4.250242
+Max. Drawdown Duration      349 days 02:00:00
+Avg. Drawdown Duration       45 days 05:00:00
+# Trades                                   63
+Win Rate [%]                        20.634921
+Best Trade [%]                      15.220668
+Worst Trade [%]                     -9.444628
+Avg. Trade [%]                      -1.101161
+Max. Trade Duration          72 days 21:00:00
+Avg. Trade Duration          18 days 08:00:00
+Profit Factor                        0.795698
+Expectancy [%]                      -0.786253
+SQN                                 -0.186338
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+AAPL:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   59.119497
+Equity Final [$]                136041.272579
+Equity Peak [$]                 147521.251979
+Return [%]                          36.041273
+Buy & Hold Return [%]               30.084829
+Return (Ann.) [%]                   36.959551
+Volatility (Ann.) [%]               20.007151
+Sharpe Ratio                         1.847317
+Sortino Ratio                        4.279551
+Calmar Ratio                         3.569966
+Max. Drawdown [%]                  -10.352913
+Avg. Drawdown [%]                   -1.027063
+Max. Drawdown Duration       67 days 06:00:00
+Avg. Drawdown Duration        4 days 04:00:00
+# Trades                                   72
+Win Rate [%]                        48.611111
+Best Trade [%]                      16.877593
+Worst Trade [%]                     -5.975154
+Avg. Trade [%]                        3.96143
+Max. Trade Duration          57 days 03:00:00
+Avg. Trade Duration          22 days 21:00:00
+Profit Factor                        3.377411
+Expectancy [%]                       4.347956
+SQN                                  2.706597
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+
+
+Pair: LINK-USD-ADA-USD 
+
+LINK:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   26.670481
+Equity Final [$]                147668.921111
+Equity Peak [$]                 147668.921111
+Return [%]                          47.668921
+Buy & Hold Return [%]                -0.29415
+Return (Ann.) [%]                   47.511732
+Volatility (Ann.) [%]               71.199171
+Sharpe Ratio                         0.667307
+Sortino Ratio                        1.500536
+Calmar Ratio                         1.588852
+Max. Drawdown [%]                  -29.903177
+Avg. Drawdown [%]                   -4.181381
+Max. Drawdown Duration      102 days 19:00:00
+Avg. Drawdown Duration        6 days 20:00:00
+# Trades                                  133
+Win Rate [%]                         49.62406
+Best Trade [%]                      15.033448
+Worst Trade [%]                     -5.385291
+Avg. Trade [%]                       4.247718
+Max. Trade Duration          15 days 16:00:00
+Avg. Trade Duration           5 days 01:00:00
+Profit Factor                        2.807513
+Expectancy [%]                       4.724707
+SQN                                  0.930929
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                         Size  Entr...
+dtype: object
+
+USD:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   30.366133
+Equity Final [$]                 76844.115432
+Equity Peak [$]                 113100.092922
+Return [%]                         -23.155885
+Buy & Hold Return [%]              -38.146948
+Return (Ann.) [%]                  -23.100564
+Volatility (Ann.) [%]               32.729919
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -36.879344
+Avg. Drawdown [%]                   -5.127607
+Max. Drawdown Duration      362 days 10:00:00
+Avg. Drawdown Duration       40 days 13:00:00
+# Trades                                  161
+Win Rate [%]                         9.937888
+Best Trade [%]                      14.906235
+Worst Trade [%]                     -5.639448
+Avg. Trade [%]                       -3.39752
+Max. Trade Duration          26 days 23:00:00
+Avg. Trade Duration           5 days 15:00:00
+Profit Factor                        0.313323
+Expectancy [%]                       -3.22973
+SQN                                 -0.851248
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                          Size  Ent...
+dtype: object
+
+
+
+Pair: AXP-TSM 
+
+AXP:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   69.068039
+Equity Final [$]                164609.753175
+Equity Peak [$]                 168924.119325
+Return [%]                          64.609753
+Buy & Hold Return [%]               21.152905
+Return (Ann.) [%]                   64.936941
+Volatility (Ann.) [%]               37.253107
+Sharpe Ratio                         1.743128
+Sortino Ratio                        5.134814
+Calmar Ratio                         3.834227
+Max. Drawdown [%]                  -16.936124
+Avg. Drawdown [%]                    -1.36233
+Max. Drawdown Duration      124 days 04:00:00
+Avg. Drawdown Duration        5 days 00:00:00
+# Trades                                  104
+Win Rate [%]                        70.192308
+Best Trade [%]                      17.272096
+Worst Trade [%]                     -7.015007
+Avg. Trade [%]                       6.447927
+Max. Trade Duration          70 days 20:00:00
+Avg. Trade Duration          27 days 13:00:00
+Profit Factor                        5.735939
+Expectancy [%]                       6.816275
+SQN                                  3.759187
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+TSM:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   69.925672
+Equity Final [$]                 83059.355494
+Equity Peak [$]                 119817.847735
+Return [%]                         -16.940645
+Buy & Hold Return [%]               25.528425
+Return (Ann.) [%]                  -17.002044
+Volatility (Ann.) [%]               24.401338
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -35.458067
+Avg. Drawdown [%]                   -5.234068
+Max. Drawdown Duration      172 days 00:00:00
+Avg. Drawdown Duration       35 days 08:00:00
+# Trades                                  114
+Win Rate [%]                        30.701754
+Best Trade [%]                      19.457163
+Worst Trade [%]                    -13.125375
+Avg. Trade [%]                      -1.142164
+Max. Trade Duration          61 days 23:00:00
+Avg. Trade Duration          18 days 05:00:00
+Profit Factor                        0.803882
+Expectancy [%]                      -0.802714
+SQN                                  -0.94359
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ACN-GOOG 
+
+ACN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   76.615209
+Equity Final [$]                150698.944485
+Equity Peak [$]                 155741.943753
+Return [%]                          50.698944
+Buy & Hold Return [%]               12.204445
+Return (Ann.) [%]                   51.695247
+Volatility (Ann.) [%]                 33.9694
+Sharpe Ratio                         1.521818
+Sortino Ratio                        3.855522
+Calmar Ratio                         3.240877
+Max. Drawdown [%]                  -15.951005
+Avg. Drawdown [%]                   -0.988516
+Max. Drawdown Duration      131 days 18:00:00
+Avg. Drawdown Duration        4 days 20:00:00
+# Trades                                  129
+Win Rate [%]                        72.868217
+Best Trade [%]                      17.215229
+Worst Trade [%]                     -7.772968
+Avg. Trade [%]                       8.190305
+Max. Trade Duration         120 days 23:00:00
+Avg. Trade Duration          43 days 00:00:00
+Profit Factor                        7.057553
+Expectancy [%]                       8.565978
+SQN                                   4.96634
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+GOOG:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   86.049171
+Equity Final [$]                  86957.22238
+Equity Peak [$]                 111843.145362
+Return [%]                         -13.042778
+Buy & Hold Return [%]               -0.608912
+Return (Ann.) [%]                  -13.454589
+Volatility (Ann.) [%]               20.029744
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -24.609487
+Avg. Drawdown [%]                   -4.821348
+Max. Drawdown Duration      203 days 21:00:00
+Avg. Drawdown Duration       32 days 21:00:00
+# Trades                                  175
+Win Rate [%]                        19.428571
+Best Trade [%]                      19.910814
+Worst Trade [%]                     -9.704397
+Avg. Trade [%]                       -2.15351
+Max. Trade Duration          72 days 21:00:00
+Avg. Trade Duration          18 days 08:00:00
+Profit Factor                        0.549392
+Expectancy [%]                      -1.910443
+SQN                                 -1.152445
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: VICI-VTR 
+
+VICI:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   53.516295
+Equity Final [$]                 80129.244722
+Equity Peak [$]                 113987.556808
+Return [%]                         -19.870755
+Buy & Hold Return [%]                1.611344
+Return (Ann.) [%]                  -20.499581
+Volatility (Ann.) [%]               14.190781
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -31.338253
+Avg. Drawdown [%]                   -2.075639
+Max. Drawdown Duration      329 days 01:00:00
+Avg. Drawdown Duration       15 days 15:00:00
+# Trades                                   26
+Win Rate [%]                         7.692308
+Best Trade [%]                       1.134933
+Worst Trade [%]                     -8.884105
+Avg. Trade [%]                      -5.063286
+Max. Trade Duration          79 days 22:00:00
+Avg. Trade Duration          29 days 05:00:00
+Profit Factor                        0.015693
+Expectancy [%]                       -5.04436
+SQN                                 -2.149821
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+VTR:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                     51.4008
+Equity Final [$]                 132152.56966
+Equity Peak [$]                 137389.857056
+Return [%]                           32.15257
+Buy & Hold Return [%]               -5.103854
+Return (Ann.) [%]                    32.67013
+Volatility (Ann.) [%]               27.004849
+Sharpe Ratio                         1.209788
+Sortino Ratio                        2.775221
+Calmar Ratio                         3.435138
+Max. Drawdown [%]                   -9.510574
+Avg. Drawdown [%]                    -2.04655
+Max. Drawdown Duration       22 days 01:00:00
+Avg. Drawdown Duration        4 days 18:00:00
+# Trades                                   23
+Win Rate [%]                        47.826087
+Best Trade [%]                      14.909465
+Worst Trade [%]                     -7.456228
+Avg. Trade [%]                       3.958781
+Max. Trade Duration          55 days 18:00:00
+Avg. Trade Duration          25 days 12:00:00
+Profit Factor                        2.686028
+Expectancy [%]                       4.431123
+SQN                                  1.205056
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+
+
+Pair: VZ-TMUS 
+
+VZ:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   68.324757
+Equity Final [$]                 94989.728016
+Equity Peak [$]                 139711.759208
+Return [%]                          -5.010272
+Buy & Hold Return [%]              -30.277781
+Return (Ann.) [%]                   -4.986863
+Volatility (Ann.) [%]                20.70454
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -32.010213
+Avg. Drawdown [%]                   -1.641194
+Max. Drawdown Duration      185 days 06:00:00
+Avg. Drawdown Duration        7 days 22:00:00
+# Trades                                   39
+Win Rate [%]                        61.538462
+Best Trade [%]                      14.858381
+Worst Trade [%]                      -7.47577
+Avg. Trade [%]                       3.529077
+Max. Trade Duration          84 days 22:00:00
+Avg. Trade Duration          38 days 19:00:00
+Profit Factor                        2.886719
+Expectancy [%]                       3.853249
+SQN                                 -0.251112
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+TMUS:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   99.885649
+Equity Final [$]                137405.321919
+Equity Peak [$]                 138349.008518
+Return [%]                          37.405322
+Buy & Hold Return [%]                2.186432
+Return (Ann.) [%]                   37.803361
+Volatility (Ann.) [%]               31.051223
+Sharpe Ratio                         1.217452
+Sortino Ratio                        2.968709
+Calmar Ratio                         3.426932
+Max. Drawdown [%]                  -11.031257
+Avg. Drawdown [%]                   -1.410231
+Max. Drawdown Duration      135 days 02:00:00
+Avg. Drawdown Duration        6 days 06:00:00
+# Trades                                  135
+Win Rate [%]                            100.0
+Best Trade [%]                      16.095274
+Worst Trade [%]                      4.557094
+Avg. Trade [%]                      11.320118
+Max. Trade Duration         183 days 19:00:00
+Avg. Trade Duration         107 days 09:00:00
+Profit Factor                             NaN
+Expectancy [%]                      11.362557
+SQN                                  8.956474
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: VZ-PARA 
+
+VZ:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                    56.26072
+Equity Final [$]                 74995.446374
+Equity Peak [$]                 115506.847767
+Return [%]                         -25.004554
+Buy & Hold Return [%]              -30.277781
+Return (Ann.) [%]                  -25.056672
+Volatility (Ann.) [%]               14.089564
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -35.072727
+Avg. Drawdown [%]                   -3.388934
+Max. Drawdown Duration      248 days 02:00:00
+Avg. Drawdown Duration       21 days 00:00:00
+# Trades                                   25
+Win Rate [%]                             28.0
+Best Trade [%]                      14.914042
+Worst Trade [%]                     -7.244453
+Avg. Trade [%]                      -0.100735
+Max. Trade Duration          49 days 23:00:00
+Avg. Trade Duration          25 days 23:00:00
+Profit Factor                        1.073419
+Expectancy [%]                       0.280733
+SQN                                 -1.243037
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+PARA:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   46.998285
+Equity Final [$]                215798.753628
+Equity Peak [$]                 222196.418072
+Return [%]                         115.798754
+Buy & Hold Return [%]              -33.305957
+Return (Ann.) [%]                  117.874819
+Volatility (Ann.) [%]               84.652938
+Sharpe Ratio                         1.392448
+Sortino Ratio                        5.829931
+Calmar Ratio                         6.857326
+Max. Drawdown [%]                  -17.189619
+Avg. Drawdown [%]                   -2.184065
+Max. Drawdown Duration      140 days 02:00:00
+Avg. Drawdown Duration        5 days 08:00:00
+# Trades                                   52
+Win Rate [%]                        63.461538
+Best Trade [%]                      19.524759
+Worst Trade [%]                     -5.281676
+Avg. Trade [%]                       7.168275
+Max. Trade Duration          51 days 22:00:00
+Avg. Trade Duration          12 days 00:00:00
+Profit Factor                        5.332438
+Expectancy [%]                       7.608059
+SQN                                  1.843774
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: TMUS-T 
+
+TMUS:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   90.909091
+Equity Final [$]                 94916.857226
+Equity Peak [$]                  113641.70208
+Return [%]                          -5.083143
+Buy & Hold Return [%]                2.186432
+Return (Ann.) [%]                   -4.754513
+Volatility (Ann.) [%]               22.062783
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                   -17.15656
+Avg. Drawdown [%]                   -2.017961
+Max. Drawdown Duration      250 days 02:00:00
+Avg. Drawdown Duration       12 days 01:00:00
+# Trades                                   16
+Win Rate [%]                            43.75
+Best Trade [%]                       0.487282
+Worst Trade [%]                     -5.200156
+Avg. Trade [%]                       -2.22344
+Max. Trade Duration         325 days 22:00:00
+Avg. Trade Duration         143 days 15:00:00
+Profit Factor                        0.044106
+Expectancy [%]                      -2.187436
+SQN                                 -1.536359
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+T:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   72.955975
+Equity Final [$]                118889.885773
+Equity Peak [$]                 128101.916194
+Return [%]                          18.889886
+Buy & Hold Return [%]              -26.303084
+Return (Ann.) [%]                   18.819657
+Volatility (Ann.) [%]               27.560589
+Sharpe Ratio                         0.682847
+Sortino Ratio                        1.461622
+Calmar Ratio                         1.119327
+Max. Drawdown [%]                  -16.813368
+Avg. Drawdown [%]                   -1.634671
+Max. Drawdown Duration      183 days 21:00:00
+Avg. Drawdown Duration        9 days 05:00:00
+# Trades                                   51
+Win Rate [%]                        64.705882
+Best Trade [%]                      15.879355
+Worst Trade [%]                     -6.144267
+Avg. Trade [%]                       4.861951
+Max. Trade Duration          83 days 00:00:00
+Avg. Trade Duration          34 days 23:00:00
+Profit Factor                        3.781802
+Expectancy [%]                       5.225347
+SQN                                  0.766861
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+
+
+Pair: TMUS-PARA 
+
+TMUS:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   90.165809
+Equity Final [$]                 94824.333379
+Equity Peak [$]                  113641.70208
+Return [%]                          -5.175667
+Buy & Hold Return [%]                2.186432
+Return (Ann.) [%]                   -4.847727
+Volatility (Ann.) [%]               22.040316
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -16.558507
+Avg. Drawdown [%]                   -1.998026
+Max. Drawdown Duration      250 days 02:00:00
+Avg. Drawdown Duration       12 days 01:00:00
+# Trades                                    7
+Win Rate [%]                              0.0
+Best Trade [%]                      -5.168507
+Worst Trade [%]                     -5.200156
+Avg. Trade [%]                      -5.183592
+Max. Trade Duration         325 days 22:00:00
+Avg. Trade Duration         325 days 15:00:00
+Profit Factor                             0.0
+Expectancy [%]                      -5.183592
+SQN                                 -1.629309
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                      Size  EntryBa...
+dtype: object
+
+PARA:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   30.646083
+Equity Final [$]                113627.392621
+Equity Peak [$]                 117424.933178
+Return [%]                          13.627393
+Buy & Hold Return [%]              -33.305957
+Return (Ann.) [%]                   13.575541
+Volatility (Ann.) [%]               34.578467
+Sharpe Ratio                         0.392601
+Sortino Ratio                        0.702708
+Calmar Ratio                         0.766021
+Max. Drawdown [%]                  -17.722144
+Avg. Drawdown [%]                   -4.328653
+Max. Drawdown Duration      110 days 23:00:00
+Avg. Drawdown Duration       12 days 15:00:00
+# Trades                                   96
+Win Rate [%]                        38.541667
+Best Trade [%]                      15.344672
+Worst Trade [%]                    -10.403297
+Avg. Trade [%]                       1.915248
+Max. Trade Duration          29 days 22:00:00
+Avg. Trade Duration          14 days 20:00:00
+Profit Factor                        1.716828
+Expectancy [%]                       2.377865
+SQN                                  0.579452
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+
+
+Pair: BBWI-BBY 
+
+BBWI:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   50.543168
+Equity Final [$]                120507.456989
+Equity Peak [$]                 137550.616622
+Return [%]                          20.507457
+Buy & Hold Return [%]               36.896427
+Return (Ann.) [%]                   20.307373
+Volatility (Ann.) [%]               45.995283
+Sharpe Ratio                          0.44151
+Sortino Ratio                        0.802345
+Calmar Ratio                         0.829615
+Max. Drawdown [%]                  -24.478055
+Avg. Drawdown [%]                   -4.555368
+Max. Drawdown Duration      243 days 00:00:00
+Avg. Drawdown Duration       20 days 15:00:00
+# Trades                                   59
+Win Rate [%]                        37.288136
+Best Trade [%]                      14.943096
+Worst Trade [%]                    -10.667593
+Avg. Trade [%]                        -0.0213
+Max. Trade Duration          54 days 20:00:00
+Avg. Trade Duration          16 days 15:00:00
+Profit Factor                        1.090495
+Expectancy [%]                       0.321736
+SQN                                  0.589776
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+BBY:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   62.950257
+Equity Final [$]                153296.921851
+Equity Peak [$]                 154411.338034
+Return [%]                          53.296922
+Buy & Hold Return [%]               13.361245
+Return (Ann.) [%]                   52.861708
+Volatility (Ann.) [%]               45.688702
+Sharpe Ratio                         1.156997
+Sortino Ratio                        3.059157
+Calmar Ratio                         1.837408
+Max. Drawdown [%]                   -28.76972
+Avg. Drawdown [%]                   -1.771462
+Max. Drawdown Duration      177 days 00:00:00
+Avg. Drawdown Duration        6 days 09:00:00
+# Trades                                   97
+Win Rate [%]                        48.453608
+Best Trade [%]                      17.408003
+Worst Trade [%]                     -7.577622
+Avg. Trade [%]                       2.195676
+Max. Trade Duration          35 days 01:00:00
+Avg. Trade Duration          15 days 10:00:00
+Profit Factor                        1.955173
+Expectancy [%]                       2.579641
+SQN                                  2.104927
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+
+
+Pair: BBWI-HD 
+
+BBWI:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   60.777587
+Equity Final [$]                166824.598563
+Equity Peak [$]                 166824.598563
+Return [%]                          66.824599
+Buy & Hold Return [%]               36.896427
+Return (Ann.) [%]                    67.16509
+Volatility (Ann.) [%]               75.084591
+Sharpe Ratio                         0.894526
+Sortino Ratio                        2.648825
+Calmar Ratio                         2.573785
+Max. Drawdown [%]                  -26.095845
+Avg. Drawdown [%]                   -2.397227
+Max. Drawdown Duration      163 days 00:00:00
+Avg. Drawdown Duration        7 days 10:00:00
+# Trades                                   63
+Win Rate [%]                        49.206349
+Best Trade [%]                      18.575192
+Worst Trade [%]                     -5.782835
+Avg. Trade [%]                       3.107187
+Max. Trade Duration          50 days 00:00:00
+Avg. Trade Duration          20 days 12:00:00
+Profit Factor                         2.60973
+Expectancy [%]                       3.473569
+SQN                                   1.48756
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+HD:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   98.513436
+Equity Final [$]                131559.148588
+Equity Peak [$]                 133401.898588
+Return [%]                          31.559149
+Buy & Hold Return [%]                7.878452
+Return (Ann.) [%]                   31.702992
+Volatility (Ann.) [%]               31.810335
+Sharpe Ratio                         0.996626
+Sortino Ratio                        2.228588
+Calmar Ratio                         2.592104
+Max. Drawdown [%]                  -12.230603
+Avg. Drawdown [%]                   -1.656257
+Max. Drawdown Duration      115 days 20:00:00
+Avg. Drawdown Duration        7 days 12:00:00
+# Trades                                  168
+Win Rate [%]                        58.333333
+Best Trade [%]                      15.875304
+Worst Trade [%]                    -10.589771
+Avg. Trade [%]                       4.748715
+Max. Trade Duration         104 days 05:00:00
+Avg. Trade Duration          40 days 11:00:00
+Profit Factor                        3.122729
+Expectancy [%]                       5.187165
+SQN                                  4.383327
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: CNC-DHR 
+
+CNC:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   75.814751
+Equity Final [$]                 80235.255696
+Equity Peak [$]                 102756.118799
+Return [%]                         -19.764744
+Buy & Hold Return [%]              -22.703266
+Return (Ann.) [%]                  -19.835105
+Volatility (Ann.) [%]               20.222027
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -28.431402
+Avg. Drawdown [%]                   -7.397144
+Max. Drawdown Duration      361 days 05:00:00
+Avg. Drawdown Duration       90 days 14:00:00
+# Trades                                   98
+Win Rate [%]                        26.530612
+Best Trade [%]                      14.808746
+Worst Trade [%]                     -6.700389
+Avg. Trade [%]                      -1.477596
+Max. Trade Duration          82 days 20:00:00
+Avg. Trade Duration          26 days 04:00:00
+Profit Factor                        0.653663
+Expectancy [%]                      -1.270537
+SQN                                  -1.88414
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+DHR:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                    98.97084
+Equity Final [$]                172922.677348
+Equity Peak [$]                 180046.148692
+Return [%]                          72.922677
+Buy & Hold Return [%]               -10.83096
+Return (Ann.) [%]                   73.300401
+Volatility (Ann.) [%]               42.300956
+Sharpe Ratio                         1.732831
+Sortino Ratio                        5.969088
+Calmar Ratio                        11.105699
+Max. Drawdown [%]                   -6.600251
+Avg. Drawdown [%]                   -1.328295
+Max. Drawdown Duration       45 days 23:00:00
+Avg. Drawdown Duration        4 days 11:00:00
+# Trades                                  160
+Win Rate [%]                           84.375
+Best Trade [%]                      16.856214
+Worst Trade [%]                     -5.883059
+Avg. Trade [%]                       9.132892
+Max. Trade Duration         104 days 04:00:00
+Avg. Trade Duration          43 days 22:00:00
+Profit Factor                       12.432919
+Expectancy [%]                       9.408588
+SQN                                  6.979115
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: CVS-DHR 
+
+CVS:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   59.919954
+Equity Final [$]                 76178.798866
+Equity Peak [$]                 108498.224386
+Return [%]                         -23.821201
+Buy & Hold Return [%]              -26.205153
+Return (Ann.) [%]                  -23.903735
+Volatility (Ann.) [%]               13.289323
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -29.787976
+Avg. Drawdown [%]                    -3.63685
+Max. Drawdown Duration      328 days 06:00:00
+Avg. Drawdown Duration       32 days 20:00:00
+# Trades                                   97
+Win Rate [%]                        24.742268
+Best Trade [%]                      11.963614
+Worst Trade [%]                     -9.528292
+Avg. Trade [%]                      -2.071178
+Max. Trade Duration          70 days 01:00:00
+Avg. Trade Duration          29 days 16:00:00
+Profit Factor                        0.479249
+Expectancy [%]                      -1.908485
+SQN                                 -4.237528
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+DHR:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                    76.72956
+Equity Final [$]                170139.117267
+Equity Peak [$]                 170139.117267
+Return [%]                          70.139117
+Buy & Hold Return [%]               -10.83096
+Return (Ann.) [%]                   70.499737
+Volatility (Ann.) [%]               42.015826
+Sharpe Ratio                         1.677933
+Sortino Ratio                        5.513215
+Calmar Ratio                         8.758442
+Max. Drawdown [%]                   -8.049347
+Avg. Drawdown [%]                   -1.610126
+Max. Drawdown Duration       45 days 23:00:00
+Avg. Drawdown Duration        4 days 12:00:00
+# Trades                                  151
+Win Rate [%]                        77.483444
+Best Trade [%]                      16.856214
+Worst Trade [%]                     -6.065164
+Avg. Trade [%]                       9.765822
+Max. Trade Duration          97 days 02:00:00
+Avg. Trade Duration          43 days 00:00:00
+Profit Factor                        9.625467
+Expectancy [%]                      10.102402
+SQN                                  7.462786
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: HOLX-IDXX 
+
+HOLX:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   94.168096
+Equity Final [$]                102029.491748
+Equity Peak [$]                 117990.985136
+Return [%]                           2.029492
+Buy & Hold Return [%]               10.633807
+Return (Ann.) [%]                    2.037659
+Volatility (Ann.) [%]               20.448161
+Sharpe Ratio                          0.09965
+Sortino Ratio                         0.14646
+Calmar Ratio                         0.129784
+Max. Drawdown [%]                  -15.700427
+Avg. Drawdown [%]                   -2.550201
+Max. Drawdown Duration      243 days 00:00:00
+Avg. Drawdown Duration       17 days 21:00:00
+# Trades                                   38
+Win Rate [%]                        23.684211
+Best Trade [%]                      15.480936
+Worst Trade [%]                     -5.981404
+Avg. Trade [%]                      -0.169773
+Max. Trade Duration         173 days 05:00:00
+Avg. Trade Duration          68 days 07:00:00
+Profit Factor                        1.040354
+Expectancy [%]                       0.124425
+SQN                                  0.175917
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+IDXX:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   77.129788
+Equity Final [$]                109019.566681
+Equity Peak [$]                 121060.786526
+Return [%]                           9.019567
+Buy & Hold Return [%]               40.609159
+Return (Ann.) [%]                    9.057082
+Volatility (Ann.) [%]               20.316027
+Sharpe Ratio                          0.44581
+Sortino Ratio                        0.815096
+Calmar Ratio                         0.799344
+Max. Drawdown [%]                  -11.330637
+Avg. Drawdown [%]                   -1.317622
+Max. Drawdown Duration      172 days 06:00:00
+Avg. Drawdown Duration       14 days 02:00:00
+# Trades                                  195
+Win Rate [%]                        41.025641
+Best Trade [%]                      16.690401
+Worst Trade [%]                     -6.893319
+Avg. Trade [%]                       1.081473
+Max. Trade Duration          61 days 21:00:00
+Avg. Trade Duration          22 days 06:00:00
+Profit Factor                        1.592783
+Expectancy [%]                       1.355479
+SQN                                  1.416863
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-BMY 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   48.770726
+Equity Final [$]                129938.902271
+Equity Peak [$]                 131176.270225
+Return [%]                          29.938902
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                   30.996488
+Volatility (Ann.) [%]               32.276027
+Sharpe Ratio                         0.960356
+Sortino Ratio                        2.348527
+Calmar Ratio                         2.216726
+Max. Drawdown [%]                  -13.983001
+Avg. Drawdown [%]                   -4.221277
+Max. Drawdown Duration      179 days 00:00:00
+Avg. Drawdown Duration       19 days 22:00:00
+# Trades                                  122
+Win Rate [%]                        47.540984
+Best Trade [%]                      17.797602
+Worst Trade [%]                     -5.405454
+Avg. Trade [%]                       2.911109
+Max. Trade Duration          69 days 01:00:00
+Avg. Trade Duration          16 days 06:00:00
+Profit Factor                        2.255716
+Expectancy [%]                       3.318716
+SQN                                  1.766759
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+BMY:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   99.714122
+Equity Final [$]                102518.559886
+Equity Peak [$]                 116276.472758
+Return [%]                            2.51856
+Buy & Hold Return [%]               -17.22311
+Return (Ann.) [%]                    2.656931
+Volatility (Ann.) [%]               18.259084
+Sharpe Ratio                         0.145513
+Sortino Ratio                        0.223054
+Calmar Ratio                         0.156077
+Max. Drawdown [%]                  -17.023159
+Avg. Drawdown [%]                   -2.223294
+Max. Drawdown Duration      204 days 00:00:00
+Avg. Drawdown Duration       16 days 05:00:00
+# Trades                                  183
+Win Rate [%]                        49.180328
+Best Trade [%]                       15.84221
+Worst Trade [%]                     -6.453405
+Avg. Trade [%]                       4.818242
+Max. Trade Duration         127 days 02:00:00
+Avg. Trade Duration          85 days 13:00:00
+Profit Factor                         3.55243
+Expectancy [%]                       5.248882
+SQN                                  0.741424
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-CI 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   52.086907
+Equity Final [$]                109536.674674
+Equity Peak [$]                 110575.417412
+Return [%]                           9.536675
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                    9.576433
+Volatility (Ann.) [%]               29.342538
+Sharpe Ratio                         0.326367
+Sortino Ratio                        0.565884
+Calmar Ratio                         0.531077
+Max. Drawdown [%]                  -18.032113
+Avg. Drawdown [%]                   -3.623981
+Max. Drawdown Duration      217 days 05:00:00
+Avg. Drawdown Duration       25 days 01:00:00
+# Trades                                  138
+Win Rate [%]                        31.884058
+Best Trade [%]                      15.701886
+Worst Trade [%]                      -8.81902
+Avg. Trade [%]                       0.471457
+Max. Trade Duration          75 days 05:00:00
+Avg. Trade Duration          17 days 22:00:00
+Profit Factor                        1.239156
+Expectancy [%]                       0.848257
+SQN                                  0.794706
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+CI:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   61.978273
+Equity Final [$]                123847.002823
+Equity Peak [$]                 124863.968033
+Return [%]                          23.847003
+Buy & Hold Return [%]                -0.23656
+Return (Ann.) [%]                   23.952578
+Volatility (Ann.) [%]               17.845544
+Sharpe Ratio                         1.342216
+Sortino Ratio                        3.175742
+Calmar Ratio                         2.566533
+Max. Drawdown [%]                   -9.332657
+Avg. Drawdown [%]                   -1.269401
+Max. Drawdown Duration       55 days 22:00:00
+Avg. Drawdown Duration        5 days 18:00:00
+# Trades                                  169
+Win Rate [%]                        96.449704
+Best Trade [%]                      15.982072
+Worst Trade [%]                     -5.193359
+Avg. Trade [%]                      13.015556
+Max. Trade Duration         127 days 18:00:00
+Avg. Trade Duration          79 days 05:00:00
+Profit Factor                       72.185163
+Expectancy [%]                      13.088046
+SQN                                 14.271312
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-CNC 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   21.898228
+Equity Final [$]                 86238.712174
+Equity Peak [$]                  117762.40198
+Return [%]                         -13.761288
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                   -13.81214
+Volatility (Ann.) [%]               21.166369
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -26.768892
+Avg. Drawdown [%]                   -3.906607
+Max. Drawdown Duration      333 days 06:00:00
+Avg. Drawdown Duration       31 days 20:00:00
+# Trades                                   75
+Win Rate [%]                        13.333333
+Best Trade [%]                      14.850842
+Worst Trade [%]                    -14.767295
+Avg. Trade [%]                       -4.57618
+Max. Trade Duration          34 days 23:00:00
+Avg. Trade Duration           9 days 10:00:00
+Profit Factor                        0.316058
+Expectancy [%]                      -4.264876
+SQN                                 -1.327234
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+CNC:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   47.913093
+Equity Final [$]                107525.820285
+Equity Peak [$]                 107804.244616
+Return [%]                            7.52582
+Buy & Hold Return [%]              -22.703266
+Return (Ann.) [%]                    7.556909
+Volatility (Ann.) [%]                8.245736
+Sharpe Ratio                         0.916463
+Sortino Ratio                        2.170101
+Calmar Ratio                         1.718927
+Max. Drawdown [%]                   -4.396294
+Avg. Drawdown [%]                   -0.559499
+Max. Drawdown Duration       76 days 05:00:00
+Avg. Drawdown Duration        5 days 18:00:00
+# Trades                                  180
+Win Rate [%]                        62.222222
+Best Trade [%]                      15.749658
+Worst Trade [%]                     -6.192629
+Avg. Trade [%]                       6.727158
+Max. Trade Duration         115 days 01:00:00
+Avg. Trade Duration          25 days 23:00:00
+Profit Factor                        4.652745
+Expectancy [%]                       7.179607
+SQN                                  7.529325
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-COO 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   37.392796
+Equity Final [$]                 76609.828641
+Equity Peak [$]                 105907.547423
+Return [%]                         -23.390171
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                  -23.471452
+Volatility (Ann.) [%]               20.471204
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -28.019214
+Avg. Drawdown [%]                  -10.163582
+Max. Drawdown Duration      287 days 04:00:00
+Avg. Drawdown Duration       97 days 02:00:00
+# Trades                                  125
+Win Rate [%]                              7.2
+Best Trade [%]                      14.955962
+Worst Trade [%]                     -8.133387
+Avg. Trade [%]                      -4.020803
+Max. Trade Duration          50 days 20:00:00
+Avg. Trade Duration          10 days 20:00:00
+Profit Factor                        0.214936
+Expectancy [%]                      -3.889985
+SQN                                 -3.191365
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+COO:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   31.446541
+Equity Final [$]                108012.556009
+Equity Peak [$]                 114207.483224
+Return [%]                           8.012556
+Buy & Hold Return [%]               25.528715
+Return (Ann.) [%]                     8.04573
+Volatility (Ann.) [%]                12.07331
+Sharpe Ratio                         0.666406
+Sortino Ratio                        1.414579
+Calmar Ratio                         1.085322
+Max. Drawdown [%]                   -7.413221
+Avg. Drawdown [%]                   -0.972177
+Max. Drawdown Duration       31 days 02:00:00
+Avg. Drawdown Duration        3 days 12:00:00
+# Trades                                  280
+Win Rate [%]                             62.5
+Best Trade [%]                      17.792185
+Worst Trade [%]                     -7.078033
+Avg. Trade [%]                        3.52605
+Max. Trade Duration          66 days 00:00:00
+Avg. Trade Duration          24 days 00:00:00
+Profit Factor                        2.958072
+Expectancy [%]                       3.896953
+SQN                                  5.268968
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-CRL 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   58.490566
+Equity Final [$]                110806.959967
+Equity Peak [$]                 111008.101553
+Return [%]                           10.80696
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                   10.852272
+Volatility (Ann.) [%]               42.217735
+Sharpe Ratio                         0.257055
+Sortino Ratio                        0.475718
+Calmar Ratio                         0.423174
+Max. Drawdown [%]                  -25.644959
+Avg. Drawdown [%]                   -3.907335
+Max. Drawdown Duration      287 days 03:00:00
+Avg. Drawdown Duration       31 days 13:00:00
+# Trades                                  105
+Win Rate [%]                        43.809524
+Best Trade [%]                      16.604977
+Worst Trade [%]                     -8.037882
+Avg. Trade [%]                       2.498393
+Max. Trade Duration          75 days 00:00:00
+Avg. Trade Duration          23 days 19:00:00
+Profit Factor                        1.944977
+Expectancy [%]                       2.952547
+SQN                                  1.073756
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+CRL:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   63.007433
+Equity Final [$]                140527.038479
+Equity Peak [$]                 142252.903179
+Return [%]                          40.527038
+Buy & Hold Return [%]               -8.252043
+Return (Ann.) [%]                   40.717652
+Volatility (Ann.) [%]               33.082193
+Sharpe Ratio                         1.230803
+Sortino Ratio                        3.207806
+Calmar Ratio                         3.331613
+Max. Drawdown [%]                  -12.221603
+Avg. Drawdown [%]                   -1.372451
+Max. Drawdown Duration       50 days 21:00:00
+Avg. Drawdown Duration        4 days 14:00:00
+# Trades                                  184
+Win Rate [%]                        65.217391
+Best Trade [%]                      17.349859
+Worst Trade [%]                     -9.383749
+Avg. Trade [%]                       7.039141
+Max. Trade Duration         117 days 04:00:00
+Avg. Trade Duration          21 days 00:00:00
+Profit Factor                        5.051094
+Expectancy [%]                       7.471426
+SQN                                  7.246536
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-CTLT 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   21.669525
+Equity Final [$]                 94301.163658
+Equity Peak [$]                 122305.166806
+Return [%]                          -5.698836
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                   -4.990209
+Volatility (Ann.) [%]               24.994378
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -22.896828
+Avg. Drawdown [%]                   -4.351218
+Max. Drawdown Duration      333 days 06:00:00
+Avg. Drawdown Duration       30 days 07:00:00
+# Trades                                  114
+Win Rate [%]                        27.192982
+Best Trade [%]                      15.368995
+Worst Trade [%]                    -14.767295
+Avg. Trade [%]                      -1.397139
+Max. Trade Duration          34 days 23:00:00
+Avg. Trade Duration          10 days 04:00:00
+Profit Factor                        0.813345
+Expectancy [%]                      -0.922779
+SQN                                 -0.456246
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+CTLT:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                    20.58319
+Equity Final [$]                107913.762597
+Equity Peak [$]                 107913.762597
+Return [%]                           7.913763
+Buy & Hold Return [%]              -59.155687
+Return (Ann.) [%]                    7.911348
+Volatility (Ann.) [%]                9.867424
+Sharpe Ratio                         0.801764
+Sortino Ratio                        1.503809
+Calmar Ratio                         0.822889
+Max. Drawdown [%]                   -9.614115
+Avg. Drawdown [%]                   -1.009182
+Max. Drawdown Duration       41 days 18:00:00
+Avg. Drawdown Duration        5 days 21:00:00
+# Trades                                  244
+Win Rate [%]                        56.147541
+Best Trade [%]                      15.594287
+Worst Trade [%]                     -6.983863
+Avg. Trade [%]                       5.565936
+Max. Trade Duration          48 days 22:00:00
+Avg. Trade Duration          12 days 09:00:00
+Profit Factor                        3.656395
+Expectancy [%]                        6.03874
+SQN                                  5.569799
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-CVS 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   18.296169
+Equity Final [$]                105027.514017
+Equity Peak [$]                 111234.758347
+Return [%]                           5.027514
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                    5.048041
+Volatility (Ann.) [%]               20.836355
+Sharpe Ratio                         0.242271
+Sortino Ratio                        0.464547
+Calmar Ratio                         0.287085
+Max. Drawdown [%]                  -17.583793
+Avg. Drawdown [%]                   -9.260915
+Max. Drawdown Duration      329 days 03:00:00
+Avg. Drawdown Duration      164 days 17:00:00
+# Trades                                   38
+Win Rate [%]                        44.736842
+Best Trade [%]                      13.069483
+Worst Trade [%]                      -5.33561
+Avg. Trade [%]                       1.680132
+Max. Trade Duration          60 days 04:00:00
+Avg. Trade Duration          27 days 20:00:00
+Profit Factor                        1.692363
+Expectancy [%]                       1.994088
+SQN                                  0.800312
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+CVS:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                    31.33219
+Equity Final [$]                108807.578284
+Equity Peak [$]                 114617.021155
+Return [%]                           8.807578
+Buy & Hold Return [%]              -26.205153
+Return (Ann.) [%]                    8.844176
+Volatility (Ann.) [%]               13.919404
+Sharpe Ratio                         0.635385
+Sortino Ratio                        0.941715
+Calmar Ratio                         1.064178
+Max. Drawdown [%]                   -8.310803
+Avg. Drawdown [%]                   -1.141675
+Max. Drawdown Duration       27 days 03:00:00
+Avg. Drawdown Duration        3 days 17:00:00
+# Trades                                   63
+Win Rate [%]                         90.47619
+Best Trade [%]                      14.841678
+Worst Trade [%]                     -0.217235
+Avg. Trade [%]                       3.689598
+Max. Trade Duration          60 days 04:00:00
+Avg. Trade Duration          52 days 01:00:00
+Profit Factor                      256.387622
+Expectancy [%]                       3.824135
+SQN                                   3.89229
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+
+
+Pair: ILMN-DHR 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   36.821041
+Equity Final [$]                 99627.361897
+Equity Peak [$]                 109635.700806
+Return [%]                          -0.372638
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                    -0.37412
+Volatility (Ann.) [%]               30.329119
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -23.539459
+Avg. Drawdown [%]                   -4.652047
+Max. Drawdown Duration      333 days 06:00:00
+Avg. Drawdown Duration       43 days 10:00:00
+# Trades                                   99
+Win Rate [%]                        25.252525
+Best Trade [%]                      14.881266
+Worst Trade [%]                     -8.037882
+Avg. Trade [%]                      -1.266299
+Max. Trade Duration          75 days 05:00:00
+Avg. Trade Duration          23 days 04:00:00
+Profit Factor                        0.753021
+Expectancy [%]                      -0.988977
+SQN                                 -0.044934
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+DHR:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   44.311035
+Equity Final [$]                112876.745651
+Equity Peak [$]                 118793.841594
+Return [%]                          12.876746
+Buy & Hold Return [%]               -10.83096
+Return (Ann.) [%]                    12.93123
+Volatility (Ann.) [%]               15.793565
+Sharpe Ratio                         0.818766
+Sortino Ratio                        1.386952
+Calmar Ratio                         1.364258
+Max. Drawdown [%]                   -9.478582
+Avg. Drawdown [%]                   -1.722645
+Max. Drawdown Duration       68 days 06:00:00
+Avg. Drawdown Duration        6 days 12:00:00
+# Trades                                  202
+Win Rate [%]                        77.227723
+Best Trade [%]                      16.200782
+Worst Trade [%]                     -6.232202
+Avg. Trade [%]                       5.432099
+Max. Trade Duration          76 days 19:00:00
+Avg. Trade Duration          46 days 12:00:00
+Profit Factor                        5.804009
+Expectancy [%]                       5.745078
+SQN                                  5.622904
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-GILD 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   26.700972
+Equity Final [$]                100969.965154
+Equity Peak [$]                 108761.141613
+Return [%]                           0.969965
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                    0.973848
+Volatility (Ann.) [%]               22.162815
+Sharpe Ratio                         0.043941
+Sortino Ratio                        0.064201
+Calmar Ratio                         0.049589
+Max. Drawdown [%]                  -19.638525
+Avg. Drawdown [%]                   -4.643629
+Max. Drawdown Duration      280 days 04:00:00
+Avg. Drawdown Duration       32 days 07:00:00
+# Trades                                  103
+Win Rate [%]                        26.213592
+Best Trade [%]                      15.668153
+Worst Trade [%]                     -6.073337
+Avg. Trade [%]                      -0.379744
+Max. Trade Duration          58 days 02:00:00
+Avg. Trade Duration          12 days 15:00:00
+Profit Factor                        0.993771
+Expectancy [%]                      -0.023708
+SQN                                  0.138402
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+GILD:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                    27.61578
+Equity Final [$]                  114756.8094
+Equity Peak [$]                   114756.8094
+Return [%]                          14.756809
+Buy & Hold Return [%]               20.785129
+Return (Ann.) [%]                   14.819758
+Volatility (Ann.) [%]                15.84654
+Sharpe Ratio                         0.935205
+Sortino Ratio                        1.986693
+Calmar Ratio                          1.44346
+Max. Drawdown [%]                  -10.266833
+Avg. Drawdown [%]                   -2.678453
+Max. Drawdown Duration       42 days 01:00:00
+Avg. Drawdown Duration        9 days 18:00:00
+# Trades                                   27
+Win Rate [%]                            100.0
+Best Trade [%]                      15.233451
+Worst Trade [%]                     14.094855
+Avg. Trade [%]                      14.796736
+Max. Trade Duration          97 days 23:00:00
+Avg. Trade Duration          95 days 11:00:00
+Profit Factor                             NaN
+Expectancy [%]                      14.796953
+SQN                                  3.391284
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+
+
+Pair: ILMN-HCA 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                    16.23785
+Equity Final [$]                 63941.674795
+Equity Peak [$]                  109041.99334
+Return [%]                         -36.058325
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                   -36.39929
+Volatility (Ann.) [%]               12.449181
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -41.888343
+Avg. Drawdown [%]                   -9.105366
+Max. Drawdown Duration      361 days 06:00:00
+Avg. Drawdown Duration       72 days 20:00:00
+# Trades                                  101
+Win Rate [%]                         2.970297
+Best Trade [%]                       0.500223
+Worst Trade [%]                     -8.554198
+Avg. Trade [%]                      -4.737945
+Max. Trade Duration          13 days 05:00:00
+Avg. Trade Duration           5 days 15:00:00
+Profit Factor                        0.001659
+Expectancy [%]                      -4.725003
+SQN                                  -6.73231
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+HCA:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   19.268153
+Equity Final [$]                127791.222717
+Equity Peak [$]                 136047.390665
+Return [%]                          27.791223
+Buy & Hold Return [%]               73.944232
+Return (Ann.) [%]                   28.249229
+Volatility (Ann.) [%]               25.386639
+Sharpe Ratio                          1.11276
+Sortino Ratio                        3.528385
+Calmar Ratio                         2.909313
+Max. Drawdown [%]                   -9.709932
+Avg. Drawdown [%]                    -1.34734
+Max. Drawdown Duration      263 days 06:00:00
+Avg. Drawdown Duration       13 days 23:00:00
+# Trades                                  198
+Win Rate [%]                        68.181818
+Best Trade [%]                      26.986252
+Worst Trade [%]                     -5.496532
+Avg. Trade [%]                       7.583409
+Max. Trade Duration          28 days 21:00:00
+Avg. Trade Duration          11 days 13:00:00
+Profit Factor                       10.723873
+Expectancy [%]                       8.096655
+SQN                                  6.669233
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-HOLX 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   49.571184
+Equity Final [$]                 75287.872989
+Equity Peak [$]                 103016.377037
+Return [%]                         -24.712127
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                  -24.797221
+Volatility (Ann.) [%]               22.867514
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -28.096961
+Avg. Drawdown [%]                  -11.354907
+Max. Drawdown Duration      287 days 04:00:00
+Avg. Drawdown Duration       97 days 18:00:00
+# Trades                                  133
+Win Rate [%]                        10.526316
+Best Trade [%]                      14.955962
+Worst Trade [%]                     -8.133387
+Avg. Trade [%]                      -3.388048
+Max. Trade Duration          55 days 19:00:00
+Avg. Trade Duration          12 days 15:00:00
+Profit Factor                        0.325573
+Expectancy [%]                      -3.209447
+SQN                                 -2.841798
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+HOLX:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   57.061178
+Equity Final [$]                118866.512861
+Equity Peak [$]                  120117.89073
+Return [%]                          18.866513
+Buy & Hold Return [%]               10.633807
+Return (Ann.) [%]                   18.948389
+Volatility (Ann.) [%]               16.429122
+Sharpe Ratio                         1.153342
+Sortino Ratio                        2.487779
+Calmar Ratio                         1.941602
+Max. Drawdown [%]                   -9.759152
+Avg. Drawdown [%]                     -1.1944
+Max. Drawdown Duration       62 days 00:00:00
+Avg. Drawdown Duration        5 days 07:00:00
+# Trades                                  189
+Win Rate [%]                        64.021164
+Best Trade [%]                      20.440739
+Worst Trade [%]                     -6.967862
+Avg. Trade [%]                        6.54661
+Max. Trade Duration         153 days 00:00:00
+Avg. Trade Duration          29 days 04:00:00
+Profit Factor                        4.639749
+Expectancy [%]                       6.998449
+SQN                                  6.435407
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-HUM 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   60.434534
+Equity Final [$]                 115376.13001
+Equity Peak [$]                 116599.538948
+Return [%]                           15.37613
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                   15.441894
+Volatility (Ann.) [%]               32.537118
+Sharpe Ratio                         0.474593
+Sortino Ratio                        0.876985
+Calmar Ratio                         0.992636
+Max. Drawdown [%]                  -15.556446
+Avg. Drawdown [%]                   -4.196052
+Max. Drawdown Duration      240 days 04:00:00
+Avg. Drawdown Duration       23 days 12:00:00
+# Trades                                  181
+Win Rate [%]                         46.40884
+Best Trade [%]                      17.797602
+Worst Trade [%]                      -6.25991
+Avg. Trade [%]                       1.461296
+Max. Trade Duration          48 days 23:00:00
+Avg. Trade Duration          15 days 11:00:00
+Profit Factor                        1.682035
+Expectancy [%]                       1.742385
+SQN                                  1.520568
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+HUM:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   93.253288
+Equity Final [$]                133179.279947
+Equity Peak [$]                  141646.22527
+Return [%]                           33.17928
+Buy & Hold Return [%]              -10.103294
+Return (Ann.) [%]                   33.331396
+Volatility (Ann.) [%]               24.861288
+Sharpe Ratio                         1.340695
+Sortino Ratio                        3.592018
+Calmar Ratio                           4.8867
+Max. Drawdown [%]                    -6.82084
+Avg. Drawdown [%]                   -1.091637
+Max. Drawdown Duration       62 days 23:00:00
+Avg. Drawdown Duration        5 days 08:00:00
+# Trades                                  175
+Win Rate [%]                        65.714286
+Best Trade [%]                       15.31699
+Worst Trade [%]                     -5.813784
+Avg. Trade [%]                       6.956844
+Max. Trade Duration         133 days 00:00:00
+Avg. Trade Duration          50 days 02:00:00
+Profit Factor                        6.746104
+Expectancy [%]                       7.311463
+SQN                                  6.647683
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: ILMN-IDXX 
+
+ILMN:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   30.360206
+Equity Final [$]                 82971.759446
+Equity Peak [$]                 103069.085525
+Return [%]                         -17.028241
+Buy & Hold Return [%]                -4.26274
+Return (Ann.) [%]                  -17.089924
+Volatility (Ann.) [%]                19.84445
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -29.987983
+Avg. Drawdown [%]                  -12.142911
+Max. Drawdown Duration      287 days 04:00:00
+Avg. Drawdown Duration      102 days 09:00:00
+# Trades                                  126
+Win Rate [%]                         5.555556
+Best Trade [%]                      14.955962
+Worst Trade [%]                     -8.133387
+Avg. Trade [%]                      -4.115093
+Max. Trade Duration          50 days 20:00:00
+Avg. Trade Duration           8 days 17:00:00
+Profit Factor                        0.169968
+Expectancy [%]                       -4.01135
+SQN                                 -2.967185
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+IDXX:
+
+Start                     2022-07-11 09:30:00
+End                       2023-07-10 15:30:00
+Duration                    364 days 06:00:00
+Exposure Time [%]                   17.838765
+Equity Final [$]                107876.192616
+Equity Peak [$]                 108881.602959
+Return [%]                           7.876193
+Buy & Hold Return [%]               40.609159
+Return (Ann.) [%]                    7.908781
+Volatility (Ann.) [%]               13.191602
+Sharpe Ratio                         0.599532
+Sortino Ratio                        1.076398
+Calmar Ratio                         0.841124
+Max. Drawdown [%]                   -9.402637
+Avg. Drawdown [%]                   -1.087308
+Max. Drawdown Duration       43 days 23:00:00
+Avg. Drawdown Duration        5 days 00:00:00
+# Trades                                  122
+Win Rate [%]                        63.114754
+Best Trade [%]                      18.275231
+Worst Trade [%]                     -8.262053
+Avg. Trade [%]                       7.196766
+Max. Trade Duration          40 days 00:00:00
+Avg. Trade Duration          19 days 19:00:00
+Profit Factor                        5.424685
+Expectancy [%]                       7.628074
+SQN                                  3.285983
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Pair: DOT-USD-VET-USD 
+
+DOT:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   42.322654
+Equity Final [$]                 40330.611588
+Equity Peak [$]                 102507.336385
+Return [%]                         -59.669388
+Buy & Hold Return [%]              -25.341896
+Return (Ann.) [%]                  -59.569202
+Volatility (Ann.) [%]               19.573825
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -61.686734
+Avg. Drawdown [%]                  -16.475652
+Max. Drawdown Duration      357 days 23:00:00
+Avg. Drawdown Duration       89 days 19:00:00
+# Trades                                  132
+Win Rate [%]                        20.454545
+Best Trade [%]                      14.906561
+Worst Trade [%]                     -6.160117
+Avg. Trade [%]                      -1.387592
+Max. Trade Duration          32 days 06:00:00
+Avg. Trade Duration           4 days 16:00:00
+Profit Factor                        0.737033
+Expectancy [%]                       -1.08169
+SQN                                 -2.632854
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                         Size  Entr...
+dtype: object
+
+USD:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   34.576659
+Equity Final [$]                191647.348129
+Equity Peak [$]                 196548.524431
+Return [%]                          91.647348
+Buy & Hold Return [%]              -21.126741
+Return (Ann.) [%]                   91.307038
+Volatility (Ann.) [%]               93.308939
+Sharpe Ratio                         0.978545
+Sortino Ratio                        2.975818
+Calmar Ratio                         2.310133
+Max. Drawdown [%]                  -39.524583
+Avg. Drawdown [%]                   -2.514795
+Max. Drawdown Duration      155 days 22:00:00
+Avg. Drawdown Duration        3 days 20:00:00
+# Trades                                  137
+Win Rate [%]                        62.773723
+Best Trade [%]                      15.008147
+Worst Trade [%]                    -10.576444
+Avg. Trade [%]                       6.700642
+Max. Trade Duration          32 days 17:00:00
+Avg. Trade Duration           5 days 01:00:00
+Profit Factor                        4.426757
+Expectancy [%]                       7.174553
+SQN                                    1.7331
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                            Size  E...
+dtype: object
+
+
+
+Pair: DOT-USD-XRP-USD 
+
+DOT:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   28.466819
+Equity Final [$]                 42989.458931
+Equity Peak [$]                 110230.382863
+Return [%]                         -57.010541
+Buy & Hold Return [%]              -25.341896
+Return (Ann.) [%]                  -56.911267
+Volatility (Ann.) [%]               12.852549
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -61.000354
+Avg. Drawdown [%]                  -11.574037
+Max. Drawdown Duration      362 days 10:00:00
+Avg. Drawdown Duration       60 days 18:00:00
+# Trades                                   73
+Win Rate [%]                         2.739726
+Best Trade [%]                      14.797211
+Worst Trade [%]                     -5.548413
+Avg. Trade [%]                      -4.713356
+Max. Trade Duration          28 days 23:00:00
+Avg. Trade Duration           6 days 19:00:00
+Profit Factor                        0.079894
+Expectancy [%]                      -4.663895
+SQN                                 -3.522728
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
+
+USD:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   46.052632
+Equity Final [$]                355581.928113
+Equity Peak [$]                 362003.282462
+Return [%]                         255.581928
+Buy & Hold Return [%]               45.696133
+Return (Ann.) [%]                  254.351586
+Volatility (Ann.) [%]              167.364603
+Sharpe Ratio                         1.519745
+Sortino Ratio                       11.882639
+Calmar Ratio                        16.074251
+Max. Drawdown [%]                  -15.823542
+Avg. Drawdown [%]                   -2.345796
+Max. Drawdown Duration       30 days 17:00:00
+Avg. Drawdown Duration        1 days 21:00:00
+# Trades                                   72
+Win Rate [%]                        72.222222
+Best Trade [%]                      15.006732
+Worst Trade [%]                     -5.252913
+Avg. Trade [%]                       8.672269
+Max. Trade Duration          36 days 18:00:00
+Avg. Trade Duration          10 days 02:00:00
+Profit Factor                         7.25253
+Expectancy [%]                       9.056059
+SQN                                  2.421473
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                         Size  Entr...
+dtype: object
+
+
+
+Pair: DOT-USD-XLM-USD 
+
+DOT:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   37.425629
+Equity Final [$]                118647.316836
+Equity Peak [$]                 128235.335426
+Return [%]                          18.647317
+Buy & Hold Return [%]              -25.341896
+Return (Ann.) [%]                   18.591901
+Volatility (Ann.) [%]               41.877775
+Sharpe Ratio                         0.443956
+Sortino Ratio                        0.776304
+Calmar Ratio                         0.821594
+Max. Drawdown [%]                  -22.629052
+Avg. Drawdown [%]                   -4.144123
+Max. Drawdown Duration      131 days 06:00:00
+Avg. Drawdown Duration       11 days 06:00:00
+# Trades                                   83
+Win Rate [%]                        55.421687
+Best Trade [%]                      14.987839
+Worst Trade [%]                     -5.348577
+Avg. Trade [%]                       4.801986
+Max. Trade Duration          44 days 18:00:00
+Avg. Trade Duration          10 days 23:00:00
+Profit Factor                        3.303026
+Expectancy [%]                       5.243799
+SQN                                   0.55926
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+USD:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   33.226545
+Equity Final [$]                 138101.65076
+Equity Peak [$]                 141018.812978
+Return [%]                          38.101651
+Buy & Hold Return [%]               -8.405887
+Return (Ann.) [%]                   37.979896
+Volatility (Ann.) [%]               52.171365
+Sharpe Ratio                         0.727984
+Sortino Ratio                        1.577961
+Calmar Ratio                         1.848601
+Max. Drawdown [%]                  -20.545213
+Avg. Drawdown [%]                   -2.407831
+Max. Drawdown Duration       49 days 00:00:00
+Avg. Drawdown Duration        3 days 06:00:00
+# Trades                                  167
+Win Rate [%]                        51.497006
+Best Trade [%]                      14.925365
+Worst Trade [%]                     -5.381209
+Avg. Trade [%]                       3.783288
+Max. Trade Duration          45 days 19:00:00
+Avg. Trade Duration          11 days 04:00:00
+Profit Factor                        2.668284
+Expectancy [%]                       4.216175
+SQN                                  0.928074
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                          Size  Ent...
+dtype: object
+
+
+
+Pair: DOT-USD-SOL-USD 
+
+DOT:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   45.183066
+Equity Final [$]                181037.557831
+Equity Peak [$]                 212029.403236
+Return [%]                          81.037558
+Buy & Hold Return [%]              -25.341896
+Return (Ann.) [%]                   80.744211
+Volatility (Ann.) [%]               84.128042
+Sharpe Ratio                         0.959778
+Sortino Ratio                        3.021908
+Calmar Ratio                          3.76829
+Max. Drawdown [%]                   -21.42728
+Avg. Drawdown [%]                   -3.947047
+Max. Drawdown Duration      105 days 05:00:00
+Avg. Drawdown Duration        5 days 14:00:00
+# Trades                                  129
+Win Rate [%]                        56.589147
+Best Trade [%]                      15.546442
+Worst Trade [%]                     -5.348577
+Avg. Trade [%]                       5.674039
+Max. Trade Duration          34 days 06:00:00
+Avg. Trade Duration          11 days 03:00:00
+Profit Factor                        3.736959
+Expectancy [%]                       6.145897
+SQN                                  1.326135
+_strategy                 Stock1Strategy(i...
+_equity_curve                             ...
+_trades                         Size  Entr...
+dtype: object
+
+USD:
+
+Start                     2022-07-10 22:00:00
+End                       2023-07-10 22:00:00
+Duration                    365 days 00:00:00
+Exposure Time [%]                   30.297483
+Equity Final [$]                 37282.404426
+Equity Peak [$]                 113221.215612
+Return [%]                         -62.717596
+Buy & Hold Return [%]              -42.331123
+Return (Ann.) [%]                  -62.616956
+Volatility (Ann.) [%]               20.313382
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -67.071185
+Avg. Drawdown [%]                   -8.817419
+Max. Drawdown Duration      362 days 10:00:00
+Avg. Drawdown Duration       40 days 13:00:00
+# Trades                                  218
+Win Rate [%]                        18.348624
+Best Trade [%]                      14.881322
+Worst Trade [%]                     -6.044017
+Avg. Trade [%]                      -1.840758
+Max. Trade Duration          19 days 09:00:00
+Avg. Trade Duration           3 days 17:00:00
+Profit Factor                        0.634526
+Expectancy [%]                      -1.560018
+SQN                                 -2.095089
+_strategy                 Stock2Strategy(i...
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object
+
+
+
+Cumulative return ($): $65385.74201230738
+% return: 17.00981842151597
+Portfolio sharpe ratio: 2.7231278563376065

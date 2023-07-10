@@ -1,6 +1,10 @@
 import pandas as pd
-from statsmodels.tsa.stattools import coint, adfuller
+from statsmodels.tsa.stattools import coint
 import yfinance as yf
+
+def correlation(stock1, stock2):
+    data = pd.DataFrame(yf.download([stock1, stock2], period="1y", interval="60m")['Close'])
+    return data[stock1].corr(data[stock2])
 
 def add_to_dictionary(dict, key, value):
     """add to a dictionary where the value is an array"""
@@ -18,14 +22,13 @@ def read_sp500_tickers(filename):
 
 def is_cointegrated(stock1, stock2):
     """Checks if two stocks are cointegrated and have a positive correlation"""
-    stockData1 = yf.download(stock1, period="1y", interval="60m")["Close"]
-    stockData2 = yf.download(stock2, period="1y", interval="60m")["Close"]
+    stockData1 = yf.download(stock1, period="2y", interval="60m")["Close"]
+    stockData2 = yf.download(stock2, period="2y", interval="60m")["Close"]
     stockData1, stockData2 = stockData1.align(stockData2, join='inner')
 
     score, pvalue, _ = coint(stockData1, stockData2)
-    correlation = stockData1.corr(stockData2)
-
-    return True if pvalue < 0.05 and correlation > 0 else False
+    cor = stockData1.corr(stockData2)
+    return True if pvalue < 0.05 and cor > 0.5 else False
 
 
 def find_cointegrated_stocks(stockList):
@@ -47,5 +50,3 @@ def find_cointegrated_stocks(stockList):
                 else: coint_stocks[stock1] = [stock2]
 
     return coint_stocks
-                
-

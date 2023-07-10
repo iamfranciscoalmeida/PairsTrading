@@ -15,121 +15,18 @@ from cointegration import *
 from backtesting import Strategy, Backtest
 from pairs_strategy import *
 import time
-
-
-def correlation(stock1, stock2):
-    data = pd.DataFrame(yf.download([stock1, stock2], period="1y", interval="60m")['Close'])
-    return data[stock1].corr(data[stock2])
-
-def corr_heatmap(corr_matrix):
-    # Generate a mask for the upper triangle
-    mask = np.triu(np.ones_like(corr_matrix, dtype=bool))
-
-    # Set up the matplotlib figure
-    f, ax = plt.subplots(figsize=(11, 9))
-
-    # Generate a custom diverging colormap
-    cmap = snb.diverging_palette(230, 20, as_cmap=True)
-
-    # Draw the heatmap with the mask and correct aspect ratio
-    snb.heatmap(corr_matrix, mask=mask, cmap=cmap, center=0, annot=True,
-            square=True, linewidths=.5, cbar_kws={"shrink": .5})
-
-    plt.show()
-
-def corr_matrix(stocks_data):
-    matrix = stocks_data.corr()
-    # corr_heatmap(matrix)
-    return matrix
-
-def hypothesis_test(stock1_data, stock2_data):
-    """"
-    Null: no correlation
-    Alternative: there is a correlation
-    """
-    corr, pvalue = pearsonr(stock1_data, stock2_data)
-    print("corr, pvalue: ", corr, pvalue)
-    return True if pvalue < 0.01 else False
-
-def plot_diff(data, stock1, stock2):
-    plt.figure(figsize=(14, 7))
-    plt.plot(data[stock1] - data[stock2], label="Diference")
-    plt.plot(data[stock2], label=stock2)
-    plt.title(f"Historical price difference between {stock1} and {stock2}")
-    plt.xlabel("Date")
-    plt.ylabel("Closing Price")
-    plt.legend()
-    plt.show()
-
-def plot(data, stock1, stock2):
-    plt.figure(figsize=(14, 7))
-    plt.plot(data[stock1], label=stock1)
-    plt.plot(data[stock2], label=stock2)
-    plt.title(f"Historical price data between {stock1} and {stock2}")
-    plt.xlabel("Date")
-    plt.ylabel("Closing Price")
-    plt.legend()
-    plt.show()
-
-def zscore(series):
-    return (series - series.mean()) / series.std()
-
-def spread(stock1, stock2):
-
-    # Drop any missing data for accuracy
-
-    X = getData(stock1, period="1y", interval="60m")["Close"]
-    y = getData(stock2, period="1y", interval="60m")["Close"]
-    X = sm.add_constant(X)
-
-    # Perform the regression
-    model = sm.OLS(y, X)
-    results = model.fit()
-    print("summary of regression\n", results.summary())
-    spread = results.resid
-    hedge_ratio = results.params["Close"]
-    # S1 = data[stock1]
-    # S2 = data[stock2]
-    # S1 = sm.add_constant(S1)
-
-    # results = sm.OLS(S2, S1).fit()
-
-    # b = results.params[stock1]
-    # print("b", b)
-    # spread = S2 - b * S1
-    # spread = X/y
-    spread_standardized = (spread - spread.mean()) / spread.std()
-    # spread_standardized.plot()
-    # Plot the spread
-    plt.figure(figsize=(12,7))
-    plt.plot(spread_standardized, label='Spread')
-    plt.plot(zscore(X), label=f"{stock1} price")
-    plt.plot(zscore(y), label=f"{stock2} price")
-    # plt.axhline(spread_standardized.mean(), color='black')
-    plt.axhline(1, color='green', linestyle='dotted', label='Short entry')
-    plt.axhline(-1, color='red', linestyle='dotted', label='Long entry')
-
-    # If < -1, short stock 1 long stock2
-    # if > 1, short stock 2 long stock 1
-
-    plt.legend()
-    plt.show()
-
-def pairs(stocks, start_date, end_date):
-
-    checked_stocks = set()
-    correlating_stocks = set()
-    all_data = yf.download(stocks, period="6mo", interval="1h")['Close']
-    matrix = corr_matrix(all_data)
-    correlated = matrix > 0.8
-    print(correlated)
-    # print(corr_matrix(all_data))
     
-    spread(all_data, "AAPL", "MSFT")
-    score, pvalue, _ = coint(all_data["AAPL"], all_data["GOOG"])
-    print("AAPL, GOOG COINT", pvalue)
-
-    return []
+def calculate_portfio_returns(returns):
+    weights = [1/len(returns)] * len(returns)
+    portfolio_ret = np.dot(returns, weights)
+    return portfolio_ret
+def change_column_names(df):
+    new_column_names = []
+    for i, column in enumerate(df.columns):
+        new_name = f"{column} {i+1}"
+        new_column_names.append(new_name)
+    df.columns = new_column_names
+    return df
 
 def calculate_portfolio_sharpe(returns, volatilities, risk_free_rate = 3):
     weight = 1 / len(returns)
@@ -137,12 +34,41 @@ def calculate_portfolio_sharpe(returns, volatilities, risk_free_rate = 3):
     portfolio_ret = np.dot(returns, weight_array)
     portfolio_sd = np.sqrt(np.dot(np.square(volatilities), np.square(weight_array)))
     return (portfolio_ret - risk_free_rate) / portfolio_sd
-    
+
+def plot_total_portfolio_ret(equity_curves, sharpe):
+    equity_only_curves = [curve["Equity"] for curve in equity_curves]
+    cumulative_equity_curve = pd.concat(equity_only_curves, axis=1)
+    aligned_equity_curve = cumulative_equity_curve.resample('D').last().ffill()
+    pct_returns = pd.DataFrame()
+    new_equity_curve = change_column_names(aligned_equity_curve)
+    for column in new_equity_curve.columns:
+        if pd.isna(new_equity_curve[column].iloc[0]):
+            new_equity_curve[column].iloc[0] = 100000
+            pct_return = ((new_equity_curve[column] / new_equity_curve[column].iloc[0]) - 1) * 100
+        else:
+            pct_return = ((new_equity_curve[column] / new_equity_curve[column].iloc[0]) - 1) * 100
+        pct_returns[column] = pct_return
+    cumulative_pct_returns = pct_returns.sum(axis=1) / len(new_equity_curve.columns)
+    spy = getData("SPY", period="1y", interval="1d")["Close"]
+    spy_daily_returns = spy.pct_change()
+    spy_cum_daily_returns = (1 + spy_daily_returns).cumprod() - 1
+    spy_cum_daily_returns.index = pd.to_datetime(spy_cum_daily_returns.index)  # Convert index to DatetimeIndex
+    spy_cum_returns = spy_cum_daily_returns * 100
+    plt.plot(cumulative_pct_returns, color="blue", label="Portfolio Returns (%)")
+    plt.plot([], [], ' ', label=f"Sharpe Ratio: {sharpe:.2f}")
+    plt.plot(spy_cum_returns, color="yellow", label="SPY Returns (%)")
+    plt.title('Pairs Trading Portfolio Equity', fontsize=14, color='black')
+    plt.xlabel('Time', fontsize=12)
+    plt.ylabel('Percentage Return', fontsize=12)
+    plt.legend()
+    plt.show()
+
 def write_results_to_file(resultsDict: dict, risk_free_rate = 3):
     path = "results.txt"
     cumulative_ret = 0
     vol_array = []
     ret_array = []
+    equity_curves_array = []
     with open(path, "w") as f:
         for pair, results in resultsDict.items():
             stock1Results = results[0]
@@ -153,11 +79,13 @@ def write_results_to_file(resultsDict: dict, risk_free_rate = 3):
             ret_array.append(stock1Results["Return [%]"])
             ret_array.append(stock2Results["Return [%]"])            
             stock1, stock2 = pair.split("-")[0], pair.split("-")[1]
+            equity_curves_array.append(stock1Results['_equity_curve'])
+            equity_curves_array.append(stock2Results['_equity_curve'])
             f.write(f"Pair: {pair} \n\n{stock1}:\n\n{stock1Results}\n\n{stock2}:\n\n{stock2Results}\n\n\n\n")
         cumulative_ret *= len(ret_array)
         sharpe = calculate_portfolio_sharpe(ret_array, vol_array, risk_free_rate)
-        weights = [1/len(ret_array)] * len(ret_array)
-        portfolio_ret = np.dot(ret_array, weights)
+        portfolio_ret = calculate_portfio_returns(ret_array)
+        plot_total_portfolio_ret(equity_curves_array, sharpe)
         f.write(f"Cumulative return ($): ${cumulative_ret}\n% return: {portfolio_ret}\nPortfolio sharpe ratio: {sharpe}\n")
 
 
@@ -165,13 +93,11 @@ if __name__ == "__main__":
     start_time = time.time()
     # stocks = read_sp500_tickers("newtickers.csv")
     # cointegrated_stocks = find_cointegrated_stocks(stocks)
-    cointegrated_stocks = {'GOOG': ['AAPL'], 'AXP': ['TSM'], 'ACN': ['GOOG'], 'VICI': ['VTR'], 'VZ': ['TMUS', 'PARA'], 'TMUS': ['T', 'PARA'], 'BBWI': ['BBY', 'HD'], 'CNC': ['DHR'], 'CRL': ['CI'], 'CVS': ['DHR'], 'HOLX': ['IDXX'], 'ILMN': ['BMY', 'CI', 'CNC', 'COO', 'CRL', 'CTLT', 'CVS', 'DGX', 'DHR', 'GILD', 'HCA', 'HOLX', 'HUM', 'IDXX']}
-    print(cointegrated_stocks)
+    cointegrated_stocks = {'GOOG': ['AAPL'], 'LINK-USD': ['ADA-USD'],  'AXP': ['TSM'], 'ACN': ['GOOG'], 'VICI': ['VTR'], 'VZ': ['TMUS', 'PARA'], 'TMUS': ['T', 'PARA'], 'BBWI': ['BBY', 'HD'], 'CNC': ['DHR'], 'CVS': ['DHR'], 'HOLX': ['IDXX'], 'ILMN': ['BMY', 'CI', 'CNC', 'COO', 'CRL', 'CTLT', 'CVS', 'DHR', 'GILD', 'HCA', 'HOLX', 'HUM', 'IDXX'], 'DOT-USD': ['VET-USD','XRP-USD', 'XLM-USD', 'VET-USD', 'SOL-USD']}
     results = {}
     for key, value in cointegrated_stocks.items():
         stock1 = key
         for stock2 in value:
-            print(f"Correlation between {stock1} and {stock2}: {correlation(stock1, stock2)}")
             results1, results2 = backtest_pairs(stock1, stock2)
             results_key = f"{stock1}-{stock2}"
             results[results_key] = [results1, results2]

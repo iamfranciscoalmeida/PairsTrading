@@ -25,3 +25,41 @@ python3 pairs.py
 ```
 depending on your IDE. 
 The results will be outputted into a .txt file as described above, with each pairs' individual performance as well as the portfolio performance.
+
+## Portfolio of pairs and results
+After conducting my own research, I created a portfolio of 29 pairs of stocks (can be found at the end of the ReadMe file) that are cointegrated and positively correlated. After optimizing parameters, I found that the hourly resolution works best for this strategy. 
+The results can be seen below: 
+
+## Portfolio returns against SPY
+![Local Image](./PortfolioReturns.png)
+
+## Portfolio of pairs
+```python(GOOG, AAPL)
+(AXP, TSM)
+(ACN, GOOG)
+(VICI, VTR)
+(VZ, TMUS)
+(VZ, PARA)
+(TMUS, T)
+(TMUS, PARA)
+(BBWI, BBY)
+(BBWI, HD)
+(CNC, DHR)
+(CRL, CI)
+(CVS, DHR)
+(HOLX, IDXX)
+(ILMN, BMY)
+(ILMN, CI)
+(ILMN, CNC)
+(ILMN, COO)
+(ILMN, CRL)
+(ILMN, CTLT)
+(ILMN, CVS)
+(ILMN, DGX)
+(ILMN, DHR)
+(ILMN, GILD)
+(ILMN, HCA)
+(ILMN, HOLX)
+(ILMN, HUM)
+(ILMN, IDXX)
+```
