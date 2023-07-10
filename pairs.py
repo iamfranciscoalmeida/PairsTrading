@@ -160,6 +160,7 @@ def write_results_to_file(resultsDict: dict, risk_free_rate = 3):
         portfolio_ret = np.dot(ret_array, weights)
         f.write(f"Cumulative return ($): ${cumulative_ret}\n% return: {portfolio_ret}\nPortfolio sharpe ratio: {sharpe}\n")
 
+
 if __name__ == "__main__":
     start_time = time.time()
     # stocks = read_sp500_tickers("newtickers.csv")

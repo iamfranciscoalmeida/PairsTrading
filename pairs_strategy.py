@@ -106,6 +106,7 @@ class Stock2Strategy(Strategy):
         #     self.position_entered = False
         #     self.position.close()
 
+
     def short_sl(self):
         return self.data["Close"] * (1 + self.stop_loss / 100)
     

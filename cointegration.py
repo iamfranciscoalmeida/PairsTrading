@@ -10,6 +10,7 @@ def add_to_dictionary(dict, key, value):
         dict[key] = [value]
     return dict
 
+
 def read_sp500_tickers(filename):
     df = pd.read_csv(filename)
     tickers = df['Ticker'].tolist()
