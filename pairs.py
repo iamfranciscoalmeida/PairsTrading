@@ -60,7 +60,7 @@ def plot_total_portfolio_ret(equity_curves, sharpe):
     spy_cum_daily_returns.index = pd.to_datetime(spy_cum_daily_returns.index)  # Convert index to DatetimeIndex
     spy_cum_returns = spy_cum_daily_returns * 100
     plt.plot(cumulative_pct_returns, color="blue", label="Portfolio Returns (%)")
-    plt.plot([], [], ' ', label=f"Por. Max Drawdown: {max_draw:.2f}")
+    plt.plot([], [], ' ', label=f"Por. Max Drawdown: {max_draw:.2f}%")
     plt.plot([], [], ' ', label=f"Sharpe Ratio: {sharpe:.2f}")
     plt.plot(spy_cum_returns, color="red", label="SPY Returns (%)")
     plt.title('Pairs Trading Portfolio Equity', fontsize=14, color='black')

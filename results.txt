@@ -1,3 +1,6 @@
+% return: 17.00981842151597
+Portfolio sharpe ratio: 2.7231278563376065
+
 Pair: GOOG-AAPL 
 
 GOOG:
@@ -2228,8 +2231,3 @@ _equity_curve                             ...
 _trades                        Size  Entry...
 dtype: object
 
-
-
-Cumulative return ($): $65385.74201230738
-% return: 17.00981842151597
-Portfolio sharpe ratio: 2.7231278563376065
