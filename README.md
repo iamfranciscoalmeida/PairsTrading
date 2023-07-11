@@ -34,7 +34,10 @@ The results can be seen below:
 ![Portolio Returns](./PortfolioReturns.png)
 
 ## Portfolio of pairs
+After conducting research on stocks and cryptocurrencies in the same industry, I arrived to this list of pairs of stocks and cryptos that are cointegrated with at least a correlation of 0.5. This way, we can ensure that our portfolio is very diversified and avoids large market downswings. 
 ```python(GOOG, AAPL)
+(GOOG, AAPL)
+(LINK-USD, ADA-USD)
 (AXP, TSM)
 (ACN, GOOG)
 (VICI, VTR)
@@ -45,7 +48,6 @@ The results can be seen below:
 (BBWI, BBY)
 (BBWI, HD)
 (CNC, DHR)
-(CRL, CI)
 (CVS, DHR)
 (HOLX, IDXX)
 (ILMN, BMY)
@@ -55,11 +57,15 @@ The results can be seen below:
 (ILMN, CRL)
 (ILMN, CTLT)
 (ILMN, CVS)
-(ILMN, DGX)
 (ILMN, DHR)
 (ILMN, GILD)
 (ILMN, HCA)
 (ILMN, HOLX)
 (ILMN, HUM)
 (ILMN, IDXX)
+(DOT-USD, VET-USD)
+(DOT-USD, XRP-USD)
+(DOT-USD, XLM-USD)
+(DOT-USD, VET-USD)
+(DOT-USD, SOL-USD)
 ```

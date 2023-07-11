@@ -2,17 +2,10 @@
         - short 
         - long
 """
-import yfinance as yf
-import datetime as dt
 import matplotlib.pyplot as plt
 import pandas as pd
-from scipy.stats import pearsonr
-import seaborn as snb
 import numpy as np
-import statsmodels.api as sm
-from statsmodels.tsa.stattools import coint, adfuller
 from cointegration import *
-from backtesting import Strategy, Backtest
 from pairs_strategy import *
 import time
     

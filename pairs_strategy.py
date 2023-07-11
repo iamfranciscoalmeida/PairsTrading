@@ -122,6 +122,5 @@ def backtest_pairs(stock1, stock2):
     results_stock1 = bt_stock1.run(interval=interval, period=period, stock2=stock2, stock1=stock1)
     bt_stock2 = Backtest(stock2Data, Stock2Strategy, cash=100000, commission=0.002)
     results_stock2 = bt_stock2.run(interval=interval, period=period, stock1=stock1, stock2=stock2) 
-    # print(f"{stock1} results: \n\n{results_stock1}\n\n {stock2} results: \n\n{results_stock2}")
     
     return results_stock1, results_stock2
