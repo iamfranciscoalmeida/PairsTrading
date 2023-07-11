@@ -28,6 +28,17 @@ def calculate_portfolio_sharpe(returns, volatilities, risk_free_rate = 3):
     portfolio_sd = np.sqrt(np.dot(np.square(volatilities), np.square(weight_array)))
     return (portfolio_ret - risk_free_rate) / portfolio_sd
 
+def max_drawdown(cumulative_returns):
+    # Calculate the running maximum
+    running_max = np.maximum.accumulate(cumulative_returns)
+    running_max[running_max < 1] = 1
+    
+    # Calculate the drawdown
+    drawdown = cumulative_returns / running_max - 1
+    
+    # Return the minimum drawdown (i.e., maximum drawdown)
+    return drawdown.min()
+
 def plot_total_portfolio_ret(equity_curves, sharpe):
     equity_only_curves = [curve["Equity"] for curve in equity_curves]
     cumulative_equity_curve = pd.concat(equity_only_curves, axis=1)
@@ -42,14 +53,16 @@ def plot_total_portfolio_ret(equity_curves, sharpe):
             pct_return = ((new_equity_curve[column] / new_equity_curve[column].iloc[0]) - 1) * 100
         pct_returns[column] = pct_return
     cumulative_pct_returns = pct_returns.sum(axis=1) / len(new_equity_curve.columns)
+    max_draw = max_drawdown(cumulative_pct_returns)
     spy = getData("SPY", period="1y", interval="1d")["Close"]
     spy_daily_returns = spy.pct_change()
     spy_cum_daily_returns = (1 + spy_daily_returns).cumprod() - 1
     spy_cum_daily_returns.index = pd.to_datetime(spy_cum_daily_returns.index)  # Convert index to DatetimeIndex
     spy_cum_returns = spy_cum_daily_returns * 100
     plt.plot(cumulative_pct_returns, color="blue", label="Portfolio Returns (%)")
+    plt.plot([], [], ' ', label=f"Por. Max Drawdown: {max_draw:.2f}")
     plt.plot([], [], ' ', label=f"Sharpe Ratio: {sharpe:.2f}")
-    plt.plot(spy_cum_returns, color="yellow", label="SPY Returns (%)")
+    plt.plot(spy_cum_returns, color="red", label="SPY Returns (%)")
     plt.title('Pairs Trading Portfolio Equity', fontsize=14, color='black')
     plt.xlabel('Time', fontsize=12)
     plt.ylabel('Percentage Return', fontsize=12)
