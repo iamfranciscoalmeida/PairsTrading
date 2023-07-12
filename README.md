@@ -36,8 +36,10 @@ The results can be seen below:
 
 ## Portfolio returns against SPY
 ![Portolio Returns over the last year](./PortfolioReturns1y.png)
+*Portolio Returns over the last year*
 
 ![Portolio Returns over the last two years](./PortfolioReturns2y.png)
+*Portolio Returns over the last year*
 
 
 ## Portfolio of pairs
