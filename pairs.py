@@ -19,7 +19,7 @@ if __name__ == "__main__":
     for key, value in cointegrated_stocks.items():
         stock1 = key
         for stock2 in value:
-            results1, results2 = backtest_pairs(stock1, stock2, period="2y")
+            results1, results2 = backtest_pairs(stock1, stock2, period="1y")
             results_key = f"{stock1}/{stock2}"
             results[results_key] = [results1, results2]
             
