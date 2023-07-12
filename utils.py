@@ -136,6 +136,7 @@ def plot_total_portfolio_ret(equity_curves):
     plt.legend(fontsize=8)
     plt.show()
     
+    return sharpe
     
 
 def write_results_to_file(resultsDict: dict, risk_free_rate = 0):
