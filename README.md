@@ -5,14 +5,14 @@
 This is a pairs trading strategy that takes a basket of stock tickers in the form of a .csv file, reads the file and finds all the pairs of stocks that are cointegrated with a positive correlation and conducts a pairs trading strategy with buy and sell signals, as well as exit points.  The steps are: 
 1. Find cointegrated pairs of stocks and check for positive correlation. Add them to a dictionary of stocks where key == stock1 and value == list of all stocks that are cointegrated with stock1.
 2. Backtest pairs of stocks with backtesting.py package. 
-  1. Calculate standardized spread of each pair of stocks using OLS. This spread follows a standard normal distribution: N(0, 1). This OLS also calculates the hedge ratio i.e. the slope of the regression line.
-  2. Create an indicator using this spread.
-  3. On each slice of data, check if spread > 1.5 or spread < -1.5
+  - Calculate standardized spread of each pair of stocks using OLS. This spread follows a standard normal distribution: N(0, 1). This OLS also calculates the hedge ratio i.e. the slope of the regression line.
+  - Create an indicator using this spread.
+  - On each slice of data, check if spread > 1.5 or spread < -1.5
      - If spread > 1.5: long stock1 and short stock2.
      - If spread < -1.5: long stock2 and short stock1.
      - $Q_1 = \frac{cash}{100} \cdot (P_1 \cdot (1 + hedgeRatio))$
      - $Q_2 = \frac{cash \cdot hedgeRatio}{100} \cdot (P_2 \cdot (1 + hedgeRatio))$
-  4. After backtesting each stock, will calculate the portfolio's cumulative returns, percentage returns and sharpe ratio, written to an output file. 
+  - After backtesting each stock, will calculate the portfolio's cumulative returns, percentage returns and sharpe ratio, written to an output file. 
 
 
 ## How to run
