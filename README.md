@@ -35,25 +35,25 @@ The results can be seen below:
 
 
 ## Portfolio returns against SPY - Stock Portfolio, Crypto Portfolio and Combined Portfolio
-![Portolio Returns over the last year](.returns/PortfolioStocks1y.png)
+![Portolio Returns over the last year](returns/PortfolioStocks1y.png)
 *Stock Portolio Returns over the last year*
 
 
 
 
-![Stock Portolio Returns over the last two years](.returns/PortfolioStocks2y.png)
+![Stock Portolio Returns over the last two years](returns/PortfolioStocks2y.png)
 *Stock Portolio Returns over the last year*
 
 
 
 
-![Crypto Portolio Returns over the last year](.returns/PortfolioCrypto1y.png)
+![Crypto Portolio Returns over the last year](returns/PortfolioCrypto1y.png)
 *Crypto Portfolio Returns over the last year*
 
 
 
 
-![Combined Portolio Returns over the last two years](.returns/PortfolioCombined1y.png)
+![Combined Portolio Returns over the last two years](returns/PortfolioCombined1y.png)
 *Combined Stock & Crypto Portfolio Returns over the last year*
 
 ## Portfolio of pairs
