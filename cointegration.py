@@ -66,9 +66,6 @@ def spread_test(stockData1, stockData2):
     model = sm.OLS(y, X)
     results = model.fit()
     spread = results.resid
-    # spread = y - X * results.params[1] - results.params[0]
-
-    # print(spread)
 
     return spread
 
@@ -76,24 +73,3 @@ def is_stationary(stockData1, stockData2):
     spr = spread_test(stockData1, stockData2)
     stat, pvalue, *_ = adfuller(spr)
     return True if pvalue < 0.05 else False
-
-if __name__ == "__main__":
-#     cointegrated_stocks = {'GOOG': ['AAPL'], 'AXP': ['TSM'], 'ACN': ['GOOG'], 'DOV': ['BA'], 'VICI': ['VTR'], 'VZ': ['TMUS', 'PARA'], 'TMUS': ['T', 'PARA'], 'BBWI': ['BBY', 'HD'], 'CNC': ['DHR'], 'CVS': ['DHR'], 'HOLX': ['IDXX'], 'ILMN': ['BMY', 'CI', 'CNC', 'COO', 'CRL', 'CTLT', 'CVS', 'DHR', 'GILD', 'HCA', 'HOLX', 'HUM', 'IDXX'], 'DOT-USD': ['VET-USD','XRP-USD', 'XLM-USD', 'VET-USD', 'SOL-USD'], 'LINK-USD': ['ADA-USD']}
-    # cointegrated_stocks = {'DOT-USD': ['VET-USD','XRP-USD', 'XLM-USD', 'VET-USD', 'SOL-USD'], 'LINK-USD': ['ADA-USD']}
-    cointegrated_stocks = {'GOOG': ['AAPL'], 'DOV': ['BA'], 'VICI': ['VTR'], 'VZ': ['PARA'], 'TMUS': ['T'], 'BBWI': ['BBY', 'HD'], 'CNC': ['DHR'], 'CVS': ['DHR'], 'EOG': ['COP'], 'XEL': ['SRE'], 'SRE': ['WEC', 'NEE', 'ES', 'AEP', 'DTE', 'DUK', 'LNT'], 'AEP': ['DUK']}
-    newList = {}
-    for stock1, value in cointegrated_stocks.items():
-        newValue = []
-        for stock2 in value: 
-            stockData1 = getData(stock1, "1y", "60m")   
-            stockData2 = getData(stock2, "1y", "60m")   
-            stockData1, stockData2 = stockData1.align(stockData2, join='inner')     
-            if is_stationary(stockData1, stockData2) and is_cointegrated(stockData1, stockData2):
-                newValue.append(stock2)
-        newList[stock1] = newValue 
-                
-    print(newList)
-               
-#             # plt.plot(spr)
-#             # plt.show()
-    

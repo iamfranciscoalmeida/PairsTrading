@@ -34,17 +34,28 @@ After conducting my own research, I created a portfolio of 29 pairs of stocks (c
 The results can be seen below: 
 
 
-## Portfolio returns against SPY
-![Portolio Returns over the last year](./PortfolioReturns1y.png)
-*Portolio Returns over the last year*
+## Portfolio returns against SPY - Stock Portfolio, Crypto Portfolio and Combined Portfolio
+![Portolio Returns over the last year](./PortfolioStocks1y.png)
+*Stock Portolio Returns over the last year*
 
-![Portolio Returns over the last two years](./PortfolioReturns2y.png)
-*Portolio Returns over the last year*
 
+![Stock Portolio Returns over the last two years](./PortfolioStocks2y.png)
+*Stock Portolio Returns over the last year*
+
+
+![Crypto Portolio Returns over the last year](./PortfolioCrypto1y.png)
+*Crypto Portfolio Returns over the last year*
+
+
+![Combined Portolio Returns over the last two years](./PortfolioCombined1y.png)
+*Combined Stock & Crypto Portfolio Returns over the last year*
 
 ## Portfolio of pairs
 After conducting research on stocks and cryptocurrencies in the same industry, I arrived to this list of pairs of stocks and cryptos that are cointegrated with at least a correlation of 0.5 and that have a spread that is stationary. This way, we can ensure that our portfolio is very diversified and avoids large market downswings. 
-```python(GOOG, AAPL)
+
+
+Stocks Portfolio
+```python
 (GOOG, AAPL)
 (DOV, BA)
 (VICI, VTR)
@@ -64,4 +75,86 @@ After conducting research on stocks and cryptocurrencies in the same industry, I
 (SRE, DUK)
 (SRE, LNT)
 (AEP, DUK)
+(HST, DLR)
+(PLD, WELL)
+(PSA, ESS)
+(PSA, EXR)
+(SLG, VNO)
+(FCX, DD)
+(AVY, AMT)
+(CHRW, AMT)
+(CMI, DE)
+(CTAS, AME)
+```
+
+
+Crypto Portfolio
+```python
+(SNX-USD, XEM-USD)
+(SNX-USD, ZRX-USD)
+(SNX-USD, FIL-USD)
+(SNX-USD, BAT-USD)
+(SNX-USD, MANA-USD)
+(SNX-USD, KSM-USD)
+(SNX-USD, ADA-USD)
+(SNX-USD, DOT-USD)
+(SNX-USD, VET-USD)
+(ETC-USD, XEM-USD)
+(ETC-USD, ZEC-USD)
+(ETC-USD, ZRX-USD)
+(ETC-USD, FIL-USD)
+(ETC-USD, BAT-USD)
+(ETC-USD, MANA-USD)
+(ETC-USD, KSM-USD)
+(ETC-USD, ADA-USD)
+(ETC-USD, XTZ-USD)
+(ETC-USD, FTT-USD)
+(XEM-USD, ZRX-USD)
+(XEM-USD, FIL-USD)
+(XEM-USD, BAT-USD)
+(XEM-USD, MANA-USD)
+(XEM-USD, KSM-USD)
+(XEM-USD, ADA-USD)
+(XEM-USD, DOT-USD)
+(XEM-USD, LINK-USD)
+(XEM-USD, VET-USD)
+(XEM-USD, EOS-USD)
+(XEM-USD, XTZ-USD)
+(ZRX-USD, FIL-USD)
+(ZRX-USD, BAT-USD)
+(ZRX-USD, MANA-USD)
+(ZRX-USD, KSM-USD)
+(ZRX-USD, ADA-USD)
+(ZRX-USD, DOT-USD)
+(ZRX-USD, VET-USD)
+(FIL-USD, OMG-USD)
+(FIL-USD, ZRX-USD)
+(FIL-USD, BAT-USD)
+(FIL-USD, MANA-USD)
+(FIL-USD, KSM-USD)
+(FIL-USD, ADA-USD)
+(FIL-USD, DOT-USD)
+(FIL-USD, LINK-USD)
+(FIL-USD, VET-USD)
+(BAT-USD, MANA-USD)
+(BAT-USD, KSM-USD)
+(BAT-USD, ADA-USD)
+(BAT-USD, DOT-USD)
+(BAT-USD, LINK-USD)
+(BAT-USD, VET-USD)
+(BAT-USD, XTZ-USD)
+(MANA-USD, DOT-USD)
+(ETH-USD, TRX-USD)
+(DOT-USD, VET-USD)
+(LINK-USD, OMG-USD)
+(LINK-USD, ZRX-USD)
+(LINK-USD, FIL-USD)
+(LINK-USD, BAT-USD)
+(LINK-USD, MANA-USD)
+(LINK-USD, VET-USD)
+(LINK-USD, XTZ-USD)
+(VET-USD, MANA-USD)
+(VET-USD, DOT-USD)
+(VET-USD, LINK-USD)
+(EOS-USD, OMG-USD)
 ```

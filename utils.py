@@ -4,9 +4,12 @@ import numpy as np
 import yfinance
     
 def getData(stock, period="2y", interval="1d"):
-    data = yfinance.download(stock, period=period, interval=interval)
-    data = data[['Open', 'High', 'Low', 'Close', 'Volume']] 
-    return data
+    try:
+        data = yfinance.download(stock, period=period, interval=interval)
+        data = data[['Open', 'High', 'Low', 'Close', 'Volume']] 
+        return data
+    except ValueError:
+        pass
 
 def zscore(series):
     return (series - series.mean()) / series.std()
@@ -46,14 +49,6 @@ def max_drawdown(returns):
                 max_drawdown = drawdown
 
     return max_drawdown 
-
-# def max_drawdown(cumulative_returns):
-#     running_max = np.maximum.accumulate(cumulative_returns)
-#     running_max[running_max < 1] = 1
-    
-#     drawdown = cumulative_returns / running_max - 1
-    
-#     return drawdown.min()
 
 def plot_individual_pair_performance(pairs, returns, volatilites):
     bar_width = 0.5
@@ -114,7 +109,7 @@ def plot_total_portfolio_ret(equity_curves):
         pct_returns[column] = pct_return
     cumulative_pct_returns = pct_returns.sum(axis=1) / len(new_equity_curve.columns)
     max_draw = max_drawdown(cumulative_pct_returns)
-    spy = getData("SPY", period="2y", interval="1d")["Close"]
+    spy = getData("SPY", period="1y", interval="1d")["Close"]
     spy_sharpe = calculate_spy_sharpe(spy)
     spy_daily_returns = spy.pct_change()
     spy_cum_daily_returns = (1 + spy_daily_returns).cumprod() - 1
@@ -132,8 +127,8 @@ def plot_total_portfolio_ret(equity_curves):
     plt.title('Pairs Trading Portfolio Equity', fontsize=14, color='black')
     plt.xlabel('Time', fontsize=12)
     plt.ylabel('Percentage Return', fontsize=12)
-    plt.xticks(fontsize=8)
-    plt.legend(fontsize=8)
+    plt.xticks(fontsize=7)
+    plt.legend(fontsize=7)
     plt.show()
     
     return sharpe
