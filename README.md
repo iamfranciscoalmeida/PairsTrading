@@ -39,12 +39,18 @@ The results can be seen below:
 *Stock Portolio Returns over the last year*
 
 
+
+
 ![Stock Portolio Returns over the last two years](./PortfolioStocks2y.png)
 *Stock Portolio Returns over the last year*
 
 
+
+
 ![Crypto Portolio Returns over the last year](./PortfolioCrypto1y.png)
 *Crypto Portfolio Returns over the last year*
+
+
 
 
 ![Combined Portolio Returns over the last two years](./PortfolioCombined1y.png)
