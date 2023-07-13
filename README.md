@@ -10,8 +10,8 @@ This is a pairs trading strategy that takes a basket of stock tickers in the for
   - On each slice of data, check if spread > 1.5 or spread < -1.5
      - If spread > 1.5: long stock1 and short stock2.
      - If spread < -1.5: long stock2 and short stock1.
-     - $Q_1 = \frac{cash}{100} \cdot (P_1 \cdot (1 + hedgeRatio))$
-     - $Q_2 = \frac{cash \cdot hedgeRatio}{100} \cdot (P_2 \cdot (1 + hedgeRatio))$
+     - $Q_1 = \frac{cash}{100} \space \cdot \space (P_1 \space \cdot \space (1 + hedgeRatio))$
+     - $Q_2 = \frac{cash \space \cdot \space hedgeRatio}{100} \space \cdot \space (P_2 \space \cdot \space (1 + hedgeRatio))$
   - After backtesting each stock, will calculate the portfolio's cumulative returns, percentage returns and sharpe ratio, written to an output file. 
 
 
